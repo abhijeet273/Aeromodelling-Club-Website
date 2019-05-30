@@ -1,0 +1,73 @@
+#event1{
+	margin-top: 5px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: serif;
+	font-weight: 700;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 2px solid grey;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.active1, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active1:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion > span{
+	font-weight: 700;
+	font-size: 25px;
+}
+
+
+
+.container-fluid .col-sm-6{
+	background-color: grey;
+	text-align: center;
+	color: white;
+	vertical-align: middle;
+}
+
+.container-fluid .col-sm-6 img{
+	width: 100%;
+	height: auto;
+}
+
+blockquote{
+	margin-top: 130px;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-style: oblique;
+}

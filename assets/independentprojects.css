@@ -1,0 +1,49 @@
+#indep{
+	margin-top: 0px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: serif;
+}
+
+body{
+	background-color: #eee;
+}
+
+h5 {
+	text-align: center;
+	margin-top: 20px;
+	font-family: serif;
+}
+
+h3 {
+	margin: 10px auto;
+	color: 444;
+	font-family: serif;
+	text-align: center;
+	font-weight: 500;
+
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+#indep1 img	{
+	width: 100%;
+	height: 450px;
+	border-color: red;
+	object-fit: cover;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+
+.container img	{
+	width: 100%;
+	height: 100%;
+	border-color: red;
+	object-fit: cover;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+}
+

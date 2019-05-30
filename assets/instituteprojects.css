@@ -1,0 +1,27 @@
+#insti{
+	margin-top: 0px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: serif;
+	margin-bottom: 20px;
+}
+
+
+.container h4 {
+	margin-top: 0px;
+	text-align: center;
+	color: black;
+	font-family: serif;
+	text-decoration: underline;
+}
+
+h5 span{
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+}
+
+h5 {
+	font-family: serif;
+}
